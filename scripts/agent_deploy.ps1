@@ -5,7 +5,7 @@ If (-Not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
 
 $MANAGER = ""
 $GROUP = "desktop,default"
-$WazuhAgentUrl = "https://packages.wazuh.com/4.x/windows/wazuh-agent-4.7.2fsk.msi"
+$WazuhAgentUrl = "https://packages.wazuh.com/4.x/windows/wazuh-agent-4.7.2-1.msi"
 $WazuhAgentInstaller = "C:\Windows\Temp\wazuh-agent-4.7.2-1.msi"
 $InternalConfigFile = "C:\Program Files (x86)\ossec-agent\local_internal_options.conf"
 
